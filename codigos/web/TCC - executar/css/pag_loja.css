@@ -1,0 +1,99 @@
+p, h3, h2 {
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.filtro {
+    border-right: 3px solid rgb(0, 0, 0);
+}
+
+.formulario_categoria {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-transform: uppercase;
+}
+
+.titulo_filtro {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 1rem 0.7rem; 
+    border-bottom: 3px solid black;
+}
+
+.caixa_categoria {
+    display: flex;
+    gap: 12px;
+    padding-left: 16px ;
+}
+
+.titulo_loja {
+    font-size: 32x;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 1.5rem;
+}
+
+.itens_loja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 15%;
+    padding: 16px 14px;
+    margin: 0 0 1rem;
+}
+
+.imagem {
+    width: 140px;
+    height: 200px;
+    align-self: center;
+    padding-bottom: 0.7rem;
+}
+
+.titulo_livro {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.categoria {
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+    padding-bottom: 0.7rem;
+}
+
+.nome_categoria {
+    padding: 0 4px;
+    background: rgb(102, 98, 98);
+    border-radius: 5px;
+    font-size: 12px;
+    align-self:center;
+}
+
+.valor_livro {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.none {
+    display: none;
+}
