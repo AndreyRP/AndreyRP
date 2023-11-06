@@ -1,0 +1,193 @@
+p, h3, h2, ul,a {
+    margin: 0;
+    padding: 0;
+}
+
+/* area da loja */
+
+main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.cabecalho {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+    background: #15191C;
+    height: 5vh;
+}
+
+.titulo_loja {
+    font-size: 32x;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 1.5rem;
+}
+
+.btn_logar {
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    color: white;
+    border: solid 2px white;
+    border-radius: 5px;    
+}
+
+.btn_logar:hover {
+    transition: 0.5s;
+    border: black;
+    color: black;
+    background-color: white;
+}
+
+.btn_sair {
+    padding: 1rem 1.5rem;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: white;
+    border: solid 2px white;
+    border-radius: 5px;
+}
+
+.btn_sair {
+    transition: 0.5s;
+    border: black;
+    color: black;
+    background-color: white;
+}
+
+.nome_usuario {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* barra pesquisa */
+
+.para_pesquisa{
+    background-color:#ffffff;
+    border:solid 1px;
+    border-radius:15px;
+    width:400px;
+    height: 40px;
+  }
+  
+.btn_buscar{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
+
+
+/* filtro */
+
+.filtro {
+    border-right: 3px solid rgb(0, 0, 0);
+    list-style: none;
+}
+
+.input_titulo {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    background-color:black ;
+    padding: 1.15rem 1rem;
+}
+
+.input_categoria{
+    width: 100%;
+    padding: 1rem;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.input_categoria:hover{
+    background-color: rgb(175, 175, 175);
+}
+
+.input_categoria:active{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+/* caixa item */
+
+.titulo_filtro {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 1rem 0.7rem; 
+    border-bottom: 3px solid black;
+}
+
+.caixa_categoria {
+    display: flex;
+    gap: 12px;
+    padding-left: 16px ;
+}
+
+
+.itens_loja {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 15%;
+    padding: 16px 14px;
+    margin: 0 0 1rem;
+    min-height: 360px;
+}
+
+.imagem {
+    width: 140px;
+    height: 200px;
+    align-self: center;
+    padding-bottom: 0.7rem;
+}
+
+.titulo_livro {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.valor_livro {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.btn_compra {
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    color: black;
+    border: solid 2px black;
+    border-radius: 5px; 
+}
+
+.none {
+    display: none;
+}
+

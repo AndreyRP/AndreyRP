@@ -1,0 +1,15 @@
+.rodape{
+    padding: 20px 5px;
+    background: #15191C;
+    color: white;
+}
+
+.descricao-rodape{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.texto{
+    text-align: center;
+}
+

@@ -1,0 +1,41 @@
+.pagina{
+    width: 70%;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.inicio{
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.baner-inicio{
+    width: 100%;
+    height: 40vh;
+}
+
+.secundario-titulo{
+    text-align: center;
+    padding: 26px 0 20px;
+    font-size: 30px;
+}
+
+.descricao{
+    font-size: 20px;
+}
+
+.destaque{
+    color: #15191C;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.descricao-imagem {
+    justify-self: center;
+}
+
+.sobre-livraria{
+    color: #15191C;
+    padding: 2.5rem 0 4rem 0;
+}
